@@ -144,3 +144,20 @@ System.out.println("Name: " + name + ", Age: " + age);
 ```
 
 Метод `show()` выводит имя и возраст пользователя на консоль. В конструкторе инициализируются поля `name` и `age`.
+```java
+public class Rectangle {
+private double length;
+private double width;
+
+public Rectangle(double length, double width) {
+this.length = length;
+this.width = width;
+}
+
+public double getSquare() {
+return length * width;
+}
+}
+```
+
+Метод `getSquare()` возвращает площадь прямоугольника, которая вычисляется как произведение длины на ширину. В конструкторе инициализируются поля `length` и `width`. Данный пример не содержит геттеров и сеттеров для полей класса Rectangle, но их также можно добавить для получения и задания значений длины и ширины.
